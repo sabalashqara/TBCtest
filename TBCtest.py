@@ -3,13 +3,16 @@ print("Hello TBC")
 
 # code 2 
 for num in range(2, 10001, 2):
-    print(num)
+     print(num)
 
 # code 3
 def is_divisible_by_seven(number):
-    return number % 7 == 0
-print(is_divisible_by_seven(1), is_divisible_by_seven(7))
-
+    if number % 7 == 0:
+        print("იყოფა")
+    else:
+        print("არ იყოფა")
+is_divisible_by_seven(7)
+is_divisible_by_seven(1)
 # code 4
 import random
 
